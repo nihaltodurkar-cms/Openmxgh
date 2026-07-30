@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If this dataset or workflow is useful to you, please cite it as below."
+type: dataset
+title: >-
+  Sulfur-Vacancy Defect States and Effective Masses in Monolayer MoS2:
+  An OpenMX DFT Study
+authors:
+  - family-names: Todurkar
+    given-names: Nihal
+date-released: 2026-07-30
+license: MIT
+keywords:
+  - density functional theory
+  - OpenMX
+  - MoS2
+  - point defects
+  - transition metal dichalcogenides
+  - effective mass
+  - 2D materials
+references:
+  - type: article
+    authors:
+      - family-names: Ozaki
+        given-names: Taisuke
+    title: "Variationally optimized atomic orbitals for large-scale electronic structures"
+    journal: Physical Review B
+    volume: "67"
+    issue: "15"
+    year: 2003
+    doi: 10.1103/PhysRevB.67.155108
+  - type: article
+    authors:
+      - family-names: Ozaki
+        given-names: Taisuke
+      - family-names: Kino
+        given-names: Hiori
+    title: "Numerical atomic basis orbitals from H to Kr"
+    journal: Physical Review B
+    volume: "69"
+    issue: "19"
+    year: 2004
+    doi: 10.1103/PhysRevB.69.195113

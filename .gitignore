@@ -1,0 +1,21 @@
+# OpenMX volumetric / checkpoint output — large and fully regenerable
+# from the input.dat files in this repo (see README "Reproducing").
+*.cube
+*_rst/
+*.rst*
+*.crst*
+*.adrst*
+*.cc
+*.Dos.vec
+
+# Editor / OpenMX backup files
+*~
+*#
+*.bak
+
+# Python
+__pycache__/
+*.pyc
+
+# OS cruft
+.DS_Store

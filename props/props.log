@@ -1,0 +1,513 @@
+
+The number of threads in each node for OpenMP parallelization is 1.
+
+
+*******************************************************
+*******************************************************
+ Welcome to OpenMX   Ver. 4.0                           
+ Copyright (C), 2002-2026, T. Ozaki                    
+ OpenMX comes with ABSOLUTELY NO WARRANTY.             
+ This is free software, and you are welcome to         
+ redistribute it under the constitution of the GNU-GPL.
+*******************************************************
+*******************************************************
+
+Automatic determination of Kerker_factor:   3.123522807993
+
+
+<Input_std>  Your input file was normally read.
+<Input_std>  The system includes 2 species and 46 atoms.
+
+*******************************************************
+                     PAO and VPS                       
+*******************************************************
+
+<SetPara_DFT>  PAOs of species Mo were normally found.
+<SetPara_DFT>  PAOs of species S were normally found.
+<SetPara_DFT>  VPSs of species Mo were normally found.
+               Mo_PBE19.vps is j-dependent.
+               In case of scf.SpinOrbit.Coupling=off,
+               j-dependent pseudo potentials are averaged by j-degeneracy,
+               which corresponds to a scalar relativistic treatment.
+<SetPara_DFT>  VPSs of species S were normally found.
+               S_PBE19.vps is j-dependent.
+               In case of scf.SpinOrbit.Coupling=off,
+               j-dependent pseudo potentials are averaged by j-degeneracy,
+               which corresponds to a scalar relativistic treatment.
+
+*******************************************************
+     Fourier transform of PAO and projectors of VNL    
+*******************************************************
+
+<FT_PAO>          Fourier transform of pseudo atomic orbitals
+<FT_NLP>          Fourier transform of non-local projectors
+<FT_ProExpn_VNA>  Fourier transform of VNA separable projectors
+<FT_VNA>          Fourier transform of VNA potentials
+<FT_ProductPAO>   Fourier transform of product of PAOs
+
+*******************************************************
+  Allocation of atoms to processors at MD_iter=    1     
+*******************************************************
+
+ proc =   0  # of atoms=  10  estimated weight=        10.00000
+ proc =   1  # of atoms=   9  estimated weight=         9.00000
+ proc =   2  # of atoms=   9  estimated weight=         9.00000
+ proc =   3  # of atoms=   9  estimated weight=         9.00000
+ proc =   4  # of atoms=   9  estimated weight=         9.00000
+
+
+
+
+*******************************************************
+        Analysis of neighbors and setting of grids        
+*******************************************************
+
+TFNAN=    2408   Average FNAN=  52.34783
+TSNAN=       0   Average SNAN=   0.00000
+<truncation> CpyCell= 1 ct_AN=   1 FNAN SNAN  51   0
+<truncation> CpyCell= 1 ct_AN=   2 FNAN SNAN  52   0
+<truncation> CpyCell= 1 ct_AN=   3 FNAN SNAN  51   0
+<truncation> CpyCell= 1 ct_AN=   4 FNAN SNAN  51   0
+<truncation> CpyCell= 1 ct_AN=   5 FNAN SNAN  52   0
+<truncation> CpyCell= 1 ct_AN=   6 FNAN SNAN  52   0
+<truncation> CpyCell= 1 ct_AN=   7 FNAN SNAN  52   0
+<truncation> CpyCell= 1 ct_AN=   8 FNAN SNAN  51   0
+<truncation> CpyCell= 1 ct_AN=   9 FNAN SNAN  52   0
+<truncation> CpyCell= 1 ct_AN=  10 FNAN SNAN  53   0
+<truncation> CpyCell= 1 ct_AN=  11 FNAN SNAN  52   0
+<truncation> CpyCell= 1 ct_AN=  12 FNAN SNAN  53   0
+<truncation> CpyCell= 1 ct_AN=  13 FNAN SNAN  52   0
+<truncation> CpyCell= 1 ct_AN=  14 FNAN SNAN  52   0
+<truncation> CpyCell= 1 ct_AN=  15 FNAN SNAN  52   0
+<truncation> CpyCell= 1 ct_AN=  16 FNAN SNAN  51   0
+<truncation> CpyCell= 1 ct_AN=  17 FNAN SNAN  53   0
+<truncation> CpyCell= 1 ct_AN=  18 FNAN SNAN  52   0
+<truncation> CpyCell= 1 ct_AN=  19 FNAN SNAN  53   0
+<truncation> CpyCell= 1 ct_AN=  20 FNAN SNAN  52   0
+     ..........
+     ......
+
+TFNAN=    2408   Average FNAN=  52.34783
+TSNAN=       0   Average SNAN=   0.00000
+<truncation> CpyCell= 2 ct_AN=   1 FNAN SNAN  51   0
+<truncation> CpyCell= 2 ct_AN=   2 FNAN SNAN  52   0
+<truncation> CpyCell= 2 ct_AN=   3 FNAN SNAN  51   0
+<truncation> CpyCell= 2 ct_AN=   4 FNAN SNAN  51   0
+<truncation> CpyCell= 2 ct_AN=   5 FNAN SNAN  52   0
+<truncation> CpyCell= 2 ct_AN=   6 FNAN SNAN  52   0
+<truncation> CpyCell= 2 ct_AN=   7 FNAN SNAN  52   0
+<truncation> CpyCell= 2 ct_AN=   8 FNAN SNAN  51   0
+<truncation> CpyCell= 2 ct_AN=   9 FNAN SNAN  52   0
+<truncation> CpyCell= 2 ct_AN=  10 FNAN SNAN  53   0
+<truncation> CpyCell= 2 ct_AN=  11 FNAN SNAN  52   0
+<truncation> CpyCell= 2 ct_AN=  12 FNAN SNAN  53   0
+<truncation> CpyCell= 2 ct_AN=  13 FNAN SNAN  52   0
+<truncation> CpyCell= 2 ct_AN=  14 FNAN SNAN  52   0
+<truncation> CpyCell= 2 ct_AN=  15 FNAN SNAN  52   0
+<truncation> CpyCell= 2 ct_AN=  16 FNAN SNAN  51   0
+<truncation> CpyCell= 2 ct_AN=  17 FNAN SNAN  53   0
+<truncation> CpyCell= 2 ct_AN=  18 FNAN SNAN  52   0
+<truncation> CpyCell= 2 ct_AN=  19 FNAN SNAN  53   0
+<truncation> CpyCell= 2 ct_AN=  20 FNAN SNAN  52   0
+     ..........
+     ......
+
+TFNAN=    2408   Average FNAN=  52.34783
+TSNAN=       0   Average SNAN=   0.00000
+<truncation> CpyCell= 2 ct_AN=   1 FNAN SNAN  51   0
+<truncation> CpyCell= 2 ct_AN=   2 FNAN SNAN  52   0
+<truncation> CpyCell= 2 ct_AN=   3 FNAN SNAN  51   0
+<truncation> CpyCell= 2 ct_AN=   4 FNAN SNAN  51   0
+<truncation> CpyCell= 2 ct_AN=   5 FNAN SNAN  52   0
+<truncation> CpyCell= 2 ct_AN=   6 FNAN SNAN  52   0
+<truncation> CpyCell= 2 ct_AN=   7 FNAN SNAN  52   0
+<truncation> CpyCell= 2 ct_AN=   8 FNAN SNAN  51   0
+<truncation> CpyCell= 2 ct_AN=   9 FNAN SNAN  52   0
+<truncation> CpyCell= 2 ct_AN=  10 FNAN SNAN  53   0
+<truncation> CpyCell= 2 ct_AN=  11 FNAN SNAN  52   0
+<truncation> CpyCell= 2 ct_AN=  12 FNAN SNAN  53   0
+<truncation> CpyCell= 2 ct_AN=  13 FNAN SNAN  52   0
+<truncation> CpyCell= 2 ct_AN=  14 FNAN SNAN  52   0
+<truncation> CpyCell= 2 ct_AN=  15 FNAN SNAN  52   0
+<truncation> CpyCell= 2 ct_AN=  16 FNAN SNAN  51   0
+<truncation> CpyCell= 2 ct_AN=  17 FNAN SNAN  53   0
+<truncation> CpyCell= 2 ct_AN=  18 FNAN SNAN  52   0
+<truncation> CpyCell= 2 ct_AN=  19 FNAN SNAN  53   0
+<truncation> CpyCell= 2 ct_AN=  20 FNAN SNAN  52   0
+     ..........
+     ......
+
+<Check_System> The system is slab.
+lattice vectors (bohr)
+A  = 24.115290338191,  0.000000000000,  0.000000000000
+B  = -12.057645169095, 20.884453972434,  0.000000000000
+C  =  0.000000000000,  0.000000000000, 28.345889828684
+reciprocal lattice vectors (bohr^-1)
+RA =  0.260547777740,  0.150427330192, -0.000000000000
+RB =  0.000000000000,  0.300854660384,  0.000000000000
+RC =  0.000000000000, -0.000000000000,  0.221661247721
+Grid_Origin -0.395914583098  0.373612309571  7.025710844490
+Cell_Volume =  14275.972900901383 (Bohr^3)
+GridVol     =      0.012101892175 (Bohr^3)
+Grid_Origin -0.395914583098  0.373612309571  7.025710844490
+Cell_Volume =  14275.972900901383 (Bohr^3)
+GridVol     =      0.012101892175 (Bohr^3)
+<UCell_Box> Info. of cutoff energy and num. of grids
+lattice vectors (bohr)
+A  = 24.115290338191,  0.000000000000,  0.000000000000
+B  = -12.057645169095, 20.884453972434,  0.000000000000
+C  =  0.000000000000,  0.000000000000, 28.345889828684
+reciprocal lattice vectors (bohr^-1)
+RA =  0.260547777740,  0.150427330192, -0.000000000000
+RB =  0.000000000000,  0.300854660384,  0.000000000000
+RC =  0.000000000000, -0.000000000000,  0.221661247721
+Required cutoff energy (Ryd) for 3D-grids = 200.0000
+    Used cutoff energy (Ryd) for 3D-grids = 208.5432, 208.5432, 201.2517
+Num. of grids of a-, b-, and c-axes = 96, 96, 128
+Grid_Origin -0.395914583098  0.373612309571  7.025710844490
+Cell_Volume =  14275.972900901383 (Bohr^3)
+GridVol     =      0.012101892175 (Bohr^3)
+Cell vectors (bohr) of the grid cell (gtv)
+  gtv_a =  0.251200941023,  0.000000000000,  0.000000000000
+  gtv_b = -0.125600470511,  0.217546395546,  0.000000000000
+  gtv_c =  0.000000000000,  0.000000000000,  0.221452264287
+  |gtv_a| =  0.251200941023
+  |gtv_b| =  0.251200940300
+  |gtv_c| =  0.221452264287
+Num. of grids overlapping with atom    1 = 118661
+Num. of grids overlapping with atom    2 = 118731
+Num. of grids overlapping with atom    3 = 118754
+Num. of grids overlapping with atom    4 = 118743
+Num. of grids overlapping with atom    5 = 118735
+Num. of grids overlapping with atom    6 = 118716
+Num. of grids overlapping with atom    7 = 118764
+Num. of grids overlapping with atom    8 = 118744
+Num. of grids overlapping with atom    9 = 118745
+Num. of grids overlapping with atom   10 = 118715
+Num. of grids overlapping with atom   11 = 118710
+Num. of grids overlapping with atom   12 = 118736
+Num. of grids overlapping with atom   13 = 118708
+Num. of grids overlapping with atom   14 = 118755
+Num. of grids overlapping with atom   15 = 118727
+Num. of grids overlapping with atom   16 = 118669
+Num. of grids overlapping with atom   17 = 118711
+Num. of grids overlapping with atom   18 = 118705
+Num. of grids overlapping with atom   19 = 118716
+Num. of grids overlapping with atom   20 = 118733
+     ..........
+     ......
+
+
+*******************************************************
+             SCF calculation at MD = 1                
+*******************************************************
+
+<MD= 1>  Calculation of the overlap matrix
+<MD= 1>  Calculation of the nonlocal matrix
+<MD= 1>  Calculation of the VNA projector matrix
+
+******************* MD= 1  SCF= 1 *******************
+<Restart>  Found restart files
+<Poisson>  Poisson's equation using FFT...
+<Band>  Solving the eigenvalue problem...
+ KGrids1:   0.00000   0.16667   0.33333   0.50000   0.66667   0.83333 
+ KGrids2:  -0.00000   0.16667   0.33333   0.50000   0.66667   0.83333 
+ KGrids3:   0.00000 
+<Band_DFT>  Eigen, time=10.488722
+<Band_DFT>  DM, time=12.287144
+    1   Mo  MulP   6.8065   6.8065 sum  13.6131 diff  -0.0000
+    2   Mo  MulP   6.8072   6.8072 sum  13.6144 diff  -0.0000
+    3   Mo  MulP   6.8261   6.8261 sum  13.6522 diff   0.0000
+    4   Mo  MulP   6.8037   6.8037 sum  13.6073 diff   0.0000
+    5   Mo  MulP   6.8064   6.8064 sum  13.6127 diff  -0.0000
+    6   Mo  MulP   6.8273   6.8273 sum  13.6545 diff  -0.0000
+    7   Mo  MulP   6.8258   6.8258 sum  13.6516 diff   0.0000
+    8   Mo  MulP   6.8259   6.8259 sum  13.6518 diff  -0.0000
+    9   Mo  MulP   6.8088   6.8088 sum  13.6175 diff  -0.0000
+   10   Mo  MulP   6.8289   6.8289 sum  13.6578 diff  -0.0000
+   11   Mo  MulP   6.8271   6.8271 sum  13.6543 diff  -0.0000
+   12   Mo  MulP   6.8071   6.8071 sum  13.6142 diff   0.0000
+   13   Mo  MulP   6.8066   6.8066 sum  13.6132 diff  -0.0000
+   14   Mo  MulP   6.8088   6.8088 sum  13.6176 diff   0.0000
+   15   Mo  MulP   6.8063   6.8063 sum  13.6126 diff   0.0000
+   16   Mo  MulP   6.8065   6.8065 sum  13.6130 diff   0.0000
+   17    S  MulP   3.0959   3.0959 sum   6.1918 diff  -0.0000
+   18    S  MulP   3.1039   3.1039 sum   6.2078 diff  -0.0000
+   19    S  MulP   3.1037   3.1037 sum   6.2075 diff  -0.0000
+   20    S  MulP   3.0979   3.0979 sum   6.1959 diff  -0.0000
+     ..........
+     ......
+
+ Sum of MulP: up   =   202.00000 down          =   202.00000
+              total=   404.00000 ideal(neutral)=   404.00000
+<DFT>  Total Spin Moment (muB) = -0.000000000000
+<DFT>  Mixing_weight= 0.300000000000
+<DFT>  Uele   = -331.184133612292  dUele     =   1.000000000000
+<DFT>  NormRD =    1.000000000000  Criterion =   0.000000010000
+
+******************* MD= 1  SCF= 2 *******************
+<Poisson>  Poisson's equation using FFT...
+<Set_Hamiltonian>  Hamiltonian matrix for VNA+dVH+Vxc...
+<Band>  Solving the eigenvalue problem...
+ KGrids1:   0.00000   0.16667   0.33333   0.50000   0.66667   0.83333 
+ KGrids2:  -0.00000   0.16667   0.33333   0.50000   0.66667   0.83333 
+ KGrids3:   0.00000 
+<Band_DFT>  Eigen, time=10.526894
+<Band_DFT>  DM, time=12.280145
+    1   Mo  MulP   6.8065   6.8065 sum  13.6131 diff   0.0000
+    2   Mo  MulP   6.8072   6.8072 sum  13.6144 diff  -0.0000
+    3   Mo  MulP   6.8261   6.8261 sum  13.6522 diff   0.0000
+    4   Mo  MulP   6.8037   6.8037 sum  13.6073 diff   0.0000
+    5   Mo  MulP   6.8064   6.8064 sum  13.6127 diff  -0.0000
+    6   Mo  MulP   6.8273   6.8273 sum  13.6545 diff  -0.0000
+    7   Mo  MulP   6.8258   6.8258 sum  13.6516 diff  -0.0000
+    8   Mo  MulP   6.8259   6.8259 sum  13.6518 diff  -0.0000
+    9   Mo  MulP   6.8088   6.8088 sum  13.6175 diff   0.0000
+   10   Mo  MulP   6.8289   6.8289 sum  13.6578 diff   0.0000
+   11   Mo  MulP   6.8271   6.8271 sum  13.6543 diff   0.0000
+   12   Mo  MulP   6.8071   6.8071 sum  13.6142 diff  -0.0000
+   13   Mo  MulP   6.8066   6.8066 sum  13.6132 diff  -0.0000
+   14   Mo  MulP   6.8088   6.8088 sum  13.6176 diff  -0.0000
+   15   Mo  MulP   6.8063   6.8063 sum  13.6126 diff   0.0000
+   16   Mo  MulP   6.8065   6.8065 sum  13.6130 diff  -0.0000
+   17    S  MulP   3.0959   3.0959 sum   6.1918 diff   0.0000
+   18    S  MulP   3.1039   3.1039 sum   6.2078 diff  -0.0000
+   19    S  MulP   3.1037   3.1037 sum   6.2075 diff   0.0000
+   20    S  MulP   3.0979   3.0979 sum   6.1959 diff  -0.0000
+     ..........
+     ......
+
+ Sum of MulP: up   =   202.00000 down          =   202.00000
+              total=   404.00000 ideal(neutral)=   404.00000
+<DFT>  Total Spin Moment (muB) = -0.000000000000
+<DFT>  Mixing_weight= 0.300000000000
+<DFT>  Uele   = -331.184133612292  dUele     =   0.000000000000
+<DFT>  NormRD =    0.000000212539  Criterion =   0.000000010000
+
+******************* MD= 1  SCF= 3 *******************
+<Poisson>  Poisson's equation using FFT...
+<Set_Hamiltonian>  Hamiltonian matrix for VNA+dVH+Vxc...
+<Band>  Solving the eigenvalue problem...
+ KGrids1:   0.00000   0.16667   0.33333   0.50000   0.66667   0.83333 
+ KGrids2:  -0.00000   0.16667   0.33333   0.50000   0.66667   0.83333 
+ KGrids3:   0.00000 
+<Band_DFT>  Eigen, time=10.517286
+<Band_DFT>  DM, time=12.289444
+    1   Mo  MulP   6.8065   6.8065 sum  13.6131 diff   0.0000
+    2   Mo  MulP   6.8072   6.8072 sum  13.6144 diff  -0.0000
+    3   Mo  MulP   6.8261   6.8261 sum  13.6522 diff   0.0000
+    4   Mo  MulP   6.8037   6.8037 sum  13.6073 diff   0.0000
+    5   Mo  MulP   6.8064   6.8064 sum  13.6127 diff   0.0000
+    6   Mo  MulP   6.8273   6.8273 sum  13.6545 diff   0.0000
+    7   Mo  MulP   6.8258   6.8258 sum  13.6516 diff  -0.0000
+    8   Mo  MulP   6.8259   6.8259 sum  13.6518 diff   0.0000
+    9   Mo  MulP   6.8088   6.8088 sum  13.6175 diff  -0.0000
+   10   Mo  MulP   6.8289   6.8289 sum  13.6578 diff   0.0000
+   11   Mo  MulP   6.8271   6.8271 sum  13.6543 diff   0.0000
+   12   Mo  MulP   6.8071   6.8071 sum  13.6142 diff  -0.0000
+   13   Mo  MulP   6.8066   6.8066 sum  13.6132 diff  -0.0000
+   14   Mo  MulP   6.8088   6.8088 sum  13.6176 diff   0.0000
+   15   Mo  MulP   6.8063   6.8063 sum  13.6126 diff  -0.0000
+   16   Mo  MulP   6.8065   6.8065 sum  13.6130 diff   0.0000
+   17    S  MulP   3.0959   3.0959 sum   6.1918 diff   0.0000
+   18    S  MulP   3.1039   3.1039 sum   6.2078 diff  -0.0000
+   19    S  MulP   3.1037   3.1037 sum   6.2075 diff  -0.0000
+   20    S  MulP   3.0979   3.0979 sum   6.1959 diff  -0.0000
+     ..........
+     ......
+
+ Sum of MulP: up   =   202.00000 down          =   202.00000
+              total=   404.00000 ideal(neutral)=   404.00000
+<DFT>  Total Spin Moment (muB) =  0.000000000000
+<DFT>  Mixing_weight= 0.001000000000
+<DFT>  Uele   = -331.184133580568  dUele     =   0.000000031724
+<DFT>  NormRD =    0.000000240792  Criterion =   0.000000010000
+
+******************* MD= 1  SCF= 4 *******************
+<Poisson>  Poisson's equation using FFT...
+<Set_Hamiltonian>  Hamiltonian matrix for VNA+dVH+Vxc...
+<Band>  Solving the eigenvalue problem...
+ KGrids1:   0.00000   0.16667   0.33333   0.50000   0.66667   0.83333 
+ KGrids2:  -0.00000   0.16667   0.33333   0.50000   0.66667   0.83333 
+ KGrids3:   0.00000 
+<Band_DFT>  Eigen, time=10.504250
+<Band_DFT>  DM, time=12.285700
+    1   Mo  MulP   6.8065   6.8065 sum  13.6131 diff   0.0000
+    2   Mo  MulP   6.8072   6.8072 sum  13.6144 diff  -0.0000
+    3   Mo  MulP   6.8261   6.8261 sum  13.6522 diff   0.0000
+    4   Mo  MulP   6.8037   6.8037 sum  13.6073 diff   0.0000
+    5   Mo  MulP   6.8064   6.8064 sum  13.6127 diff   0.0000
+    6   Mo  MulP   6.8273   6.8273 sum  13.6545 diff   0.0000
+    7   Mo  MulP   6.8258   6.8258 sum  13.6516 diff   0.0000
+    8   Mo  MulP   6.8259   6.8259 sum  13.6518 diff  -0.0000
+    9   Mo  MulP   6.8088   6.8088 sum  13.6175 diff  -0.0000
+   10   Mo  MulP   6.8289   6.8289 sum  13.6578 diff   0.0000
+   11   Mo  MulP   6.8271   6.8271 sum  13.6543 diff  -0.0000
+   12   Mo  MulP   6.8071   6.8071 sum  13.6142 diff   0.0000
+   13   Mo  MulP   6.8066   6.8066 sum  13.6132 diff  -0.0000
+   14   Mo  MulP   6.8088   6.8088 sum  13.6176 diff   0.0000
+   15   Mo  MulP   6.8063   6.8063 sum  13.6126 diff  -0.0000
+   16   Mo  MulP   6.8065   6.8065 sum  13.6130 diff  -0.0000
+   17    S  MulP   3.0959   3.0959 sum   6.1918 diff  -0.0000
+   18    S  MulP   3.1039   3.1039 sum   6.2078 diff   0.0000
+   19    S  MulP   3.1037   3.1037 sum   6.2075 diff   0.0000
+   20    S  MulP   3.0979   3.0979 sum   6.1959 diff   0.0000
+     ..........
+     ......
+
+ Sum of MulP: up   =   202.00000 down          =   202.00000
+              total=   404.00000 ideal(neutral)=   404.00000
+<DFT>  Total Spin Moment (muB) = -0.000000000000
+<DFT>  Mixing_weight= 0.001000000000
+<DFT>  Uele   = -331.184133580560  dUele     =   0.000000000008
+<DFT>  NormRD =    0.000000239014  Criterion =   0.000000010000
+Band_DFT_kpath starts.
+kpath
+1 ( 0.000000000000000  0.000000000000000  0.000000000000000)->( 0.500000000000000  0.000000000000000  0.000000000000000)
+2 ( 0.500000000000000  0.000000000000000  0.000000000000000)->( 0.333333000000000  0.333333000000000  0.000000000000000)
+3 ( 0.333333000000000  0.333333000000000  0.000000000000000)->( 0.000000000000000  0.000000000000000  0.000000000000000)
+
+<Band_DFT_Dosout>
+ KGrids1: 0.000000 0.111111 0.222222 0.333333 0.444444 0.555556 0.666667 0.777778 0.888889 
+ KGrids2: -0.000000 0.111111 0.222222 0.333333 0.444444 0.555556 0.666667 0.777778 0.888889 
+ KGrids3: 0.000000 
+ iemin and iemax= 19 374
+ write eigenvalues
+ write eigenvectors
+<MD= 1>  Force calculation
+  Force calculation #1
+  Force calculation #2
+  Force calculation #3
+  Force calculation #4
+  Force calculation #5
+<MD= 1>  Total Energy
+  Force calculation #6
+  Force calculation #7
+
+*******************************************************
+                  Dipole moment (Debye)                 
+*******************************************************
+
+ Absolute D      227.72000264
+
+                      Dx                Dy                Dz
+ Total            197.14671768     -113.97179333        0.04043175
+ Core            6358.38862647    10625.61893841    21656.51924429
+ Electron       -6161.24190879   -10739.59073174   -21656.47881253
+ Back ground       -0.00000000       -0.00000000       -0.00000000
+
+*******************************************************
+             Total Energy (Hartree) at MD = 1           
+*******************************************************
+
+  Uele  =    -331.184133580560
+
+  Ukin  =     468.740451442976
+  UH0   =  -11719.124445734702
+  UH1   =       0.431283287780
+  Una   =    -612.490115298376
+  Unl   =      88.062528136457
+  Uxc0  =    -121.364527979291
+  Uxc1  =    -121.364527979291
+  Ucore =   10579.603693989695
+  Uhub  =       0.000000000000
+  Ucs   =       0.000000000000
+  Uzs   =       0.000000000000
+  Uzo   =       0.000000000000
+  Uef   =       0.000000000000
+  UvdW  =       0.000000000000
+  Uch   =       0.000000000000
+  Utot  =   -1437.505660134752
+
+  UpV   =       0.000000000000
+  Enpy  =   -1437.505660134752
+  Note:
+
+  Uele:   band energy
+  Ukin:   kinetic energy
+  UH0:    electric part of screened Coulomb energy
+  UH1:    difference electron-electron Coulomb energy
+  Una:    neutral atom potential energy
+  Unl:    non-local potential energy
+  Uxc0:   exchange-correlation energy for alpha spin
+  Uxc1:   exchange-correlation energy for beta spin
+  Ucore:  core-core Coulomb energy
+  Uhub:   LDA+U energy
+  Ucs:    constraint energy for spin orientation
+  Uzs:    Zeeman term for spin magnetic moment
+  Uzo:    Zeeman term for orbital magnetic moment
+  Uef:    electric energy by electric field
+  UvdW:   semi-empirical vdW energy 
+  Uch:    penalty term to create a core hole
+  UpV:    pressure times volume
+  Enpy:   Enthalpy = Utot + UpV
+  (see also PRB 72, 045121(2005) for the energy contributions)
+
+
+*******************************************************
+           Computational times (s) at MD = 1            
+*******************************************************
+
+  DFT in total      =  367.03992
+
+  Set_OLP_Kin       =    3.00344
+  Set_Nonlocal      =    3.17426
+  Set_ProExpn_VNA   =    5.99504
+  Set_Hamiltonian   =    6.84153
+  Poisson           =    0.03441
+  diagonalization   =   91.26578
+  Mixing_DM         =    0.58387
+  Force             =    5.65526
+  Total_Energy      =    1.22831
+  Set_Aden_Grid     =    0.05524
+  Set_Orbitals_Grid =    0.50775
+  Set_Density_Grid  =    3.74998
+  RestartFileDFT    =    0.01233
+  Mulliken_Charge   =    0.00300
+  FFT(2D)_Density   =    0.08877
+
+The SCF was achieved at MD=   1
+
+*******************************************************
+             MD or geometry opt. at MD = 1              
+*******************************************************
+
+
+outputting data on grids to files...
+
+
+***********************************************************
+***********************************************************
+               Computational Time (second)                 
+***********************************************************
+***********************************************************
+
+                               Min_ID   Min_Time       Max_ID   Max_Time
+   Total Computational Time =     2      369.021          0      369.077
+   readfile                 =     2        0.067          4        0.067
+   truncation               =     1        1.306          2        1.336
+   MD_pac                   =     0        0.000          1        0.000
+   OutData                  =     4        0.561          0        0.618
+   HWF                      =     0        0.000          0        0.000
+   DFT                      =     2      367.038          1      367.064
+
+*** In DFT ***
+
+   Set_OLP_Kin              =     4        2.702          0        3.003
+   Set_Nonlocal             =     0        3.174          4        3.477
+   Set_ProExpn_VNA          =     4        5.824          0        5.995
+   Set_Hamiltonian          =     0        6.842          1        6.842
+   Poisson                  =     0        0.034          1        0.034
+   Diagonalization          =     1       91.266          3       91.266
+   Mixing_DM                =     1        0.584          0        0.584
+   Force                    =     0        5.655          1        5.655
+   Total_Energy             =     4        1.228          0        1.228
+   Set_Aden_Grid            =     0        0.055          4        0.227
+   Set_Orbitals_Grid        =     1        0.464          0        0.508
+   Set_Density_Grid         =     3        3.749          4        3.750
+   RestartFileDFT           =     2        0.012          1        0.052
+   Mulliken_Charge          =     1        0.003          0        0.003
+   FFT(2D)_Density          =     1        0.089          2        0.089
+   Others                   =     2      244.838          1      244.863
+
+The calculation was normally finished.
